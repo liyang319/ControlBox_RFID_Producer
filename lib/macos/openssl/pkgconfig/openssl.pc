@@ -1,0 +1,7 @@
+libdir=/Users/yli/Desktop/NewCode/thirdparty/openssl_install/lib
+includedir=/Users/yli/Desktop/NewCode/thirdparty/openssl_install/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.3.0
+Requires: libssl libcrypto

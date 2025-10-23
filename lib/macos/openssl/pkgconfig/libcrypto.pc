@@ -1,0 +1,11 @@
+libdir=/Users/yli/Desktop/NewCode/thirdparty/openssl_install/lib
+includedir=/Users/yli/Desktop/NewCode/thirdparty/openssl_install/include
+enginesdir=/Users/yli/Desktop/NewCode/thirdparty/openssl_install//lib/engines-3
+modulesdir=/Users/yli/Desktop/NewCode/thirdparty/openssl_install//lib/ossl-modules
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 3.3.0
+Libs: -L${libdir} -lcrypto
+Libs.private: 
+Cflags: -I${includedir}

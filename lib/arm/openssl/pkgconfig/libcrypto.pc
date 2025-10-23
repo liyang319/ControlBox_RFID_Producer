@@ -1,0 +1,11 @@
+libdir=/home/ubuntu/Desktop/thirdparty/openssl_install/lib
+includedir=/home/ubuntu/Desktop/thirdparty/openssl_install/include
+enginesdir=/home/ubuntu/Desktop/thirdparty/openssl_install/lib/engines-3
+modulesdir=/home/ubuntu/Desktop/thirdparty/openssl_install/lib/ossl-modules
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 3.3.0
+Libs: -L${libdir} -lcrypto
+Libs.private: -ldl -pthread
+Cflags: -I${includedir}
